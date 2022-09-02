@@ -1,0 +1,17 @@
+# ro'yxatlar bilan ishlash
+
+cars = ['malibu','gentra','cobalt','spark','matiz','camaro','onix','traccer']
+
+#.sort() = so'zlarni alifbo ko'rinishida tartib bilan chiqaradi
+cars.sort()
+print(cars)
+
+# .sort(reverse=true) = teskari alifbo ko'rinishida
+cars.sort(reverse=true)
+print(cars)
+
+# sorted = asl ro'yxatga tegmagan holda ro'yxatni saralaydi
+print(sorted(cars))
+
+mehmonlar = ['Timur','Odil','Faxruz','Amin','Asil','Bexruz','Jaxongir']
+print("sorted() qaytargan ro'yxat:", sorted(mehmonlar))
