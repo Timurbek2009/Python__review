@@ -1,0 +1,21 @@
+# sonlar bilan ishlash 
+
+a = 20 
+b= 16``````````````` 
+temp = 36.6
+
+# type = o'zgaruvchilarning turi
+print(type(a))
+
+
+aholi_soni= 7_000_000_000
+print("aholi soni:", aholi_soni)`
+
+c = a*b
+print(c)
+print(type(c))
+
+
+d = 100/2
+print(d)
+print(type(d))
