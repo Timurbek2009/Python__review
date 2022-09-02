@@ -1,0 +1,18 @@
+# .upper() hamma sozlarni katta qilishga yordam beradi
+ism='Timurbek'
+familiya='Ataullayev'
+print(f"salom, mening ismim {ism}   {familiya}")
+print(ism.upper())
+# \t orada katta joy ochishni taminlab beradi
+print('hello\tWorld')
+# ctrl a hammasini belgilaydi
+#ctrl c copy
+# ctrl v put or paste
+# \n sozni narigi qatorga otkazishga yordam beradi
+# .lower() bu harflarni kichkindia qilib yozishga yordam beradi
+# .tittle() gapdagi hamma sozni bosh harfini katta qilib beradi
+# .capitalize() gapdagi birinchi sozni harfini katta qiib beradi 
+# imput buyrug'i bizdan soragan holda javobni chiqaradi
+ism = input("ismingiz nima?")
+yosh = input("yoshingiz nechida?")
+print(yosh,"yosh ekansiz")
