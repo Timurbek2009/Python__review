@@ -1,0 +1,24 @@
+a= 5.5
+b=60
+c=a*b
+#print (c)
+# type matni tipini korsatadi 
+temp = 36.6
+#print(type (temp))
+aholi_soni=7_897_224_423
+#print ("aholi soni :",aholi_soni)
+# // bu belgi bizga sonni songa bolganda uni butun son korinishida tasvirlab beradi
+d=3000/7
+#print (d)
+d=3000//7
+#print(d)
+# PI=3,14159
+radius=20
+PI=3.14159
+diametr=2*radius 
+#print("aylana uzinligi:",PI*diametr)
+ism="Timurbek"
+yosh = 13
+
+xabar=ism + str(yosh) + 'yoshda'
+print(xabar)
