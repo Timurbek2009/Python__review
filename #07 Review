@@ -1,0 +1,22 @@
+# lists = ro'yxatlar
+
+radius = 19
+ism = "Timurbek"
+
+mevalar = ['olma','anjir','uzum','shaftoli','o\'rik']
+print(mevalar)
+
+narhlar = [10000,8000,15000,20000,5000]
+print(narhlar)
+
+sonlar['bir','ikki',3,4,5]
+print(sonlar)
+
+ismlar = []
+print(ismlar)
+
+print(mevalar[o])
+ cars = ['malibu','cobalt','spark','matiz']
+print(cars[0])
+
+# .upper() = barcha harflarni katta qilib beradi
