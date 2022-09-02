@@ -1,0 +1,28 @@
+# I F - E L S E ___ tarmoqlanish
+
+
+
+avtolar = ['audi','bmw','tesla','camaro','kia']
+for avto in avtolar:
+    print(avto.title())
+
+# I F = agarda
+# E L S E = aks holda
+
+avtolar = ['audi','bmw','tesla','camaro','kia']
+for avto in avtolar:
+    if avto == 'bmw':
+        print*(avto.upper())
+    else:
+        print(avto.title())
+
+        ism = 'Timur'
+
+        ism.lower() == 'timur'
+
+ism = input('ismingiz nima?\n>>>')
+if ism.lower() != 'timur':
+    print(f"Uzr, {ism.title()} biz Timurni kutyapmiz")
+else:
+    print("salom", 'Timur')
+    
