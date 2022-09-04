@@ -1,0 +1,32 @@
+talaba_0 = {
+    'ism' : 'Timurbek',
+    'familiya' : 'Ataullayev',
+    'yosh' : 13,
+    'fan' : 'matematika',
+    'sinf' : 7
+    }
+    #print(talaba_0.items())
+
+    #.items() - elementlar
+
+    #for key, value in talaba_0.items():
+        #print(f"kalit: {key}")
+        #print(f"qiymat: {value} \n")
+
+#.key() - kalit
+#.value() - qiymat
+
+mahsulotlar = {
+    'olma' : 10000
+    'anor' : 20000
+    'uzum' : 40000
+    'anjir' : 25000
+    'shaftoli' : 30000
+    }
+
+    #print(mahsulotlar.keys()
+
+    print('dokondagi mahsulotlar:')
+    for mahsulot in mahsulotlar.keys():
+        print(mahsulot.title())
+        
