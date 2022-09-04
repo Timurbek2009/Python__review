@@ -1,0 +1,15 @@
+#dictionary lug'at
+#car_0 = {'model':'malibu','rang':'qizil'}
+#print(car_0['model'])
+#print(car_0['rang'])
+
+#en-uz = {'apple':'olma','apricot':'orik','banana':'banan'}
+
+#mevalar = {'olma':10000,'tarvuz':8000,'qovun':10000}
+#print(f"olma narhi {mevalar['olma']} so'm")
+#print(mevalar['qovun'])
+
+#talaba_0 = {'ism':'Timurbek Ataullayev','yosh':20,'t_yil'}
+#print(f"{talaba_0['ism'].title()},\
+    #{talaba_0['t_yil']}-yilda tug'ulgan,\
+    #{talaba_0['yosh']} yoshda")
