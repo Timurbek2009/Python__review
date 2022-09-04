@@ -1,0 +1,16 @@
+# N E S T  I N G
+car0 = {
+    'model':'cobalt',
+    'rang':'qora',
+    'yil':2013
+    'narh':7000
+    'km':80000
+    'korobka':'mexanika'
+}
+
+
+
+car = car0
+print(f"{car['model'].title()},"
+    f"{car['rang']}.title(),"
+    f"{car['yil']}-yil, {car['narh']}$")
