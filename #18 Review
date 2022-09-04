@@ -1,0 +1,27 @@
+# W H I L E tsikli bilan ishlash
+
+print("yaqin do'stlaringiz ro'yxatini tuzamiz")
+ismlar = []
+n=1
+while True:
+    savol = f"{n}-do'stingiz ismini kiriting:"
+    ism = input(savol)
+    ismlar.append(ism)
+    takrorlash = input("yana ism qo'shasizmi? (ha/yo'q)")
+    n+=1
+    if takrorlash != 'ha':
+        break
+
+print(ismlar)
+
+print("do'stlaringizni yoshini saqlaymiz")
+dostlar = {}
+ishora = True
+while ishora:
+    ism = input("do'stingiz ismini kiriting")
+    yosh = input(f"{ism.title()}ning yoshini kiriting: ")
+    dostlar[ism] = int(yosh)
+
+    javob = input("yana ma'lumot qo'shasizmi? (ha/yo'q")
+    if javob == "yo'q":
+        ishora = False
