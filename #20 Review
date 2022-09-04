@@ -1,0 +1,32 @@
+# F U N K S I Y A dan qiymat yaratish
+
+
+def toliq_ism_yasa(ism, familiya):
+    """Toliq ism qaytaruvchi funksiya"""
+    toliq_ism = f"{ism} {familiya}"
+    print(toliq_ism)
+
+toliq_ism_yasa('Timur', 'Ataullayev')
+
+
+
+def toliq_ism_yasa(ism, familiya):
+    """Toliq ism qaytaruvchi funksiya"""
+    toliq_ism = f"{ism} {familiya}"
+    return toliq_ism_yasa
+
+talaba = toliq_ism_yasa('Timurbek', 'ataullayev')
+print(talaba)
+
+
+def toliq_ism_yasa(ism, familiya, otasining_ismi=''):
+    """Toliq ism qaytaruvchi funksiya"""
+    if otasining_ismi:
+        toliq_ism = f"{ism} {otasining_ismi} {familiya}"
+    else:
+        toliq_ism = f"{ism} {familiya}"
+    return toliq_ism.title()
+
+talaba1 = toliq_ism_yasa('Abdurahmon','Ibodullayev')
+talaba2 = toliq_ism_yasa('Timurbek','Ataullayev','Nodirjonovich')
+print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
