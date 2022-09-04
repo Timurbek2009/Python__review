@@ -1,0 +1,25 @@
+# I F - E L I F - E L S E funksiyasi
+
+
+son = 50 
+if son<0:
+    print("manfiy son") 
+else:
+    print("musbat son")
+
+
+yosh = int(input('yoshingiz nechchida? '))
+if yosh<4:
+    print('sizga kirish bepul')
+elif yosh<=12:
+    print('sizga kirish 5000 som ')
+else:
+    print('sizga kirish 10000 som ')
+
+
+kun = input("bugugn nima kun?>>>")
+if kun.lower()=='shanba' or kun.lower()=='yakshanba':
+    print('bugun dam olish kuni')
+else:
+    print('bugun ish kuni')
+    
