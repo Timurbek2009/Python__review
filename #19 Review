@@ -1,0 +1,30 @@
+# F U N K S I Y A 
+
+# print()
+# type()
+# range()
+# bular hammasi funksiya
+
+def salom_ber():
+    """Salom beruvchi funksiya"""
+    print("assalomu alaykum")
+
+salom_ber()
+
+def salom_ber(ism):
+    """foydalanuvchini ismini qabul qilib unga salom beruvchi funksiya"""
+    print(f"Assalomu alaykum, hurmatli {ism.title()}!")
+    
+salom_ber('anvar')
+salom_ber('bobur')
+
+print(salom_ber.__doc__)
+
+def car():
+    """ mashina narhi bilan aytiladigan funksiya """
+    print(f"bu mashina narhi {car.title()}!")
+
+car('malibu'  395 'mln')
+car('cobalt' 128 'mln')
+car('spark '76 'mln')
+print("boshqa mashina yoq")
